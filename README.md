@@ -121,38 +121,7 @@ Important:
 - Use an account with appropriate privileges for schema creation and CRUD operations.
 - Do not commit credentials to source control — keep them in a secure store.
 
-## Starter SQL schema
 
-Run these statements to create a minimal `smart_assets` database and an `Assets` table to get started:
-
-```sql
-CREATE DATABASE IF NOT EXISTS smart_assets;
-USE smart_assets;
-
-CREATE TABLE IF NOT EXISTS Assets (
-	Id INT AUTO_INCREMENT PRIMARY KEY,
-	Tag VARCHAR(100) NOT NULL,
-	Name VARCHAR(255) NOT NULL,
-	Description TEXT,
-	Location VARCHAR(255),
-	Status VARCHAR(50),
-	PurchaseDate DATE,
-	Value DECIMAL(18,2),
-	CreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-
--- Example maintenance table (extend as needed)
-CREATE TABLE IF NOT EXISTS Maintenance (
-	Id INT AUTO_INCREMENT PRIMARY KEY,
-	AssetId INT NOT NULL,
-	ScheduledDate DATE,
-	CompletedDate DATE,
-	Notes TEXT,
-	FOREIGN KEY (AssetId) REFERENCES Assets(Id)
-);
-```
-
-Add more tables (Audits, Users, Attachments) as needed to match the app's code.
 
 ## Project Structure (trimmed)
 
