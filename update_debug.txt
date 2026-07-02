@@ -1,0 +1,40 @@
+=== UPDATE DEBUG (remove after fix) ===
+Row ID from DataKey: 7
+Total cells: 16
+  Cell[0]: Text='7' 
+  Cell[1]: Text='' [TextBox] = 'Laptop'
+  Cell[2]: Text='' [TextBox] = 'Lenovo V14 G2-ITL'
+  Cell[3]: Text='' [TextBox] = '8gb 512 gb'
+  Cell[4]: Text='' [TextBox] = 'PG03FENH'
+  Cell[5]: Text='' [TextBox] = '3'
+  Cell[6]: Text='' [TextBox] = '3'
+  Cell[7]: Text='' [TextBox] = '0'
+  Cell[8]: Text='' [Control type: LiteralControl]
+  Cell[9]: Text='' [Control type: LiteralControl]
+  Cell[10]: Text='' [TextBox] = '11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz   2.42 GHz'
+  Cell[11]: Text='' [TextBox] = 'Working Fine(SHUBHAM BAIRAGI)'
+  Cell[12]: Text='
+                            <div class="no-img-box">
+                                <i class="fa-regular fa-image"></i>
+                            </div>
+                        ' 
+  Cell[13]: Text='' [Control type: LiteralControl]
+  Cell[14]: Text='' [Control type: LiteralControl]
+  Cell[15]: Text='' [Control type: LiteralControl]
+ddlEditStatus value: Active
+ddlEditSector value: Government
+
+=== SENDING TO BAL ===
+id=7
+itemName=Laptop
+brand=Lenovo V14 G2-ITL
+capacity=8gb 512 gb
+serialNumber=PG03FENH
+qty=3
+workingQty=3
+nonWorkingQty=0
+status=Active
+sector=Government
+description=11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz   2.42 GHz
+remark=Working Fine(SHUBHAM BAIRAGI)
+group=IT
